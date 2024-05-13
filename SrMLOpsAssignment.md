@@ -11,21 +11,22 @@ This assignment is designed to assess your skills and proficiency in MLOps pract
 
 ## Practical Tasks
 1. **Kubernetes Cluster Setup**
-   - Initialize a Kubernetes cluster on your local machine or using a cloud provider.
-   - Deploy a sample web application to the cluster.
-   - Ensure the application is accessible via an external IP address.
+   - Set up a local Kubernetes cluster using minikube or kind. These tools allow you to run Kubernetes clusters on your local machine, which is ideal for development and testing purposes.
+   - Deploy a simple application to the cluster. Examples of simple applications include:
+     - A static website using Nginx.
+     - A REST API built with Flask or Express.js.
+   - Ensure the application is accessible via an external IP address or port-forwarding.
 
 2. **Dockerization**
-   - Create a Dockerfile for a sample web application.
-   - Build the Docker image and push it to a public container registry.
+   - Create a Dockerfile for the simple application you chose to deploy.
+   - Build the Docker image and push it to a public container registry like Docker Hub.
 
 3. **CI/CD Pipeline**
    - Set up a CI/CD pipeline using a tool like Jenkins, GitLab CI, or GitHub Actions.
    - The pipeline should automate the testing, building, and deployment of the Dockerized application to the Kubernetes cluster.
 
 4. **Cloud Deployment**
-   - Deploy the application to a cloud service (AWS, GCP, Azure, etc.).
-   - Provide documentation on how the application can be accessed and any credentials needed.
+   - Deploy the application to a cloud service (AWS, GCP, Azure, etc.). If you do not have access to a cloud service, you may document the steps you would take to deploy the application to a cloud service, including any necessary configuration files or scripts.
 
 ## Theoretical Questions
 Please provide answers to the following questions:
